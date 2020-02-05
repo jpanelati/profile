@@ -1,0 +1,64 @@
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .container {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+body {
+  background-color: #D3D5D7;
+  font-family: 'Roboto';
+  color: #050517;
+  font-size: 16px;
+  line-height: 8px;
+  text-align: center;
+}
+
+.card {
+  width: 90%;
+  height: auto;
+  margin: 10px auto;
+  border: 1px solid rgb(150,150,160);
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 1px 1px 1px grey;
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  color: #373E40;
+  font-size: 25px;
+  font-weight: 1200;
+  font-family: Raleway;
+  height: 20px;
+}
+
+@media (max-width: 650px) {
+  p {
+    line-height: 18px;
+  }
+}
+
+a {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+a:hover {
+  opacity: 1
+}
+
+img {
+  width: 40%;
+  height: 40%;
+  border-radius: 3%;
+}
+
+i.fab{
+  margin: 0 7px;
+}
